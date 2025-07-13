@@ -1,0 +1,141 @@
+[INFO ] [2025-07-05 02:48:08,752] [restartedMain] c.m.i.IplDashboardApplication logStarting - Starting IplDashboardApplication using Java 24.0.1 with PID 22024 (C:\Users\user\OneDrive\Documents\ipl-dashboard\target\classes started by user in C:\Users\user\OneDrive\Documents\ipl-dashboard)
+[INFO ] [2025-07-05 02:48:08,765] [restartedMain] c.m.i.IplDashboardApplication logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+[INFO ] [2025-07-05 02:48:08,960] [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] [2025-07-05 02:48:08,973] [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] [2025-07-05 02:48:11,775] [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] [2025-07-05 02:48:11,827] [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn - Finished Spring Data repository scanning in 25 ms. Found 0 JPA repository interfaces.
+[INFO ] [2025-07-05 02:48:13,167] [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer initialize - Tomcat initialized with port 8080 (http)
+[INFO ] [2025-07-05 02:48:13,200] [restartedMain] o.a.coyote.http11.Http11NioProtocol log - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] [2025-07-05 02:48:13,204] [restartedMain] o.a.catalina.core.StandardService log - Starting service [Tomcat]
+[INFO ] [2025-07-05 02:48:13,206] [restartedMain] o.a.catalina.core.StandardEngine log - Starting Servlet engine: [Apache Tomcat/10.1.42]
+[INFO ] [2025-07-05 02:48:13,346] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] log - Initializing Spring embedded WebApplicationContext
+[INFO ] [2025-07-05 02:48:13,348] [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 4364 ms
+[INFO ] [2025-07-05 02:48:13,788] [restartedMain] com.zaxxer.hikari.HikariDataSource getConnection - HikariPool-1 - Starting...
+[INFO ] [2025-07-05 02:48:14,385] [restartedMain] com.zaxxer.hikari.pool.PoolBase getAndSetNetworkTimeout - HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+[INFO ] [2025-07-05 02:48:14,388] [restartedMain] com.zaxxer.hikari.pool.HikariPool checkFailFast - HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@4246e7dc
+[INFO ] [2025-07-05 02:48:14,391] [restartedMain] com.zaxxer.hikari.HikariDataSource getConnection - HikariPool-1 - Start completed.
+[INFO ] [2025-07-05 02:48:14,658] [restartedMain] o.h.jpa.internal.util.LogHelper logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] [2025-07-05 02:48:14,808] [restartedMain] org.hibernate.Version logVersion - HHH000412: Hibernate ORM core version 6.6.18.Final
+[INFO ] [2025-07-05 02:48:14,897] [restartedMain] o.h.c.i.RegionFactoryInitiator initiateService - HHH000026: Second-level cache disabled
+[INFO ] [2025-07-05 02:48:15,601] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] [2025-07-05 02:48:15,802] [restartedMain] o.hibernate.orm.connections.pooling logConnectionInfo - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.7.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] [2025-07-05 02:48:17,153] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] [2025-07-05 02:48:17,201] [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] [2025-07-05 02:48:17,557] [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] [2025-07-05 02:48:19,025] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer startServer - LiveReload server is running on port 35729
+[INFO ] [2025-07-05 02:48:19,052] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver <init> - Exposing 1 endpoint beneath base path '/actuator'
+[INFO ] [2025-07-05 02:48:19,214] [restartedMain] o.a.coyote.http11.Http11NioProtocol log - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] [2025-07-05 02:48:19,261] [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer start - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] [2025-07-05 02:48:19,298] [restartedMain] c.m.i.IplDashboardApplication logStarted - Started IplDashboardApplication in 11.406 seconds (process running for 12.915)
+[INFO ] [2025-07-05 02:48:19,317] [restartedMain] o.s.b.a.b.JobLauncherApplicationRunner run - Running default command line with: []
+[INFO ] [2025-07-05 02:48:19,377] [restartedMain] o.s.b.c.l.s.TaskExecutorJobLauncher run - Job: [SimpleJob: [name=importUserJob]] launched with the following parameters: [{}]
+[INFO ] [2025-07-05 02:48:19,437] [restartedMain] o.s.batch.core.job.SimpleStepHandler handleStep - Executing step: [step1]
+[INFO ] [2025-07-05 02:48:19,886] [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/] log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] [2025-07-05 02:48:19,887] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'dispatcherServlet'
+[INFO ] [2025-07-05 02:48:19,892] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet initServletBean - Completed initialization in 2 ms
+[INFO ] [2025-07-05 02:48:22,149] [restartedMain] o.s.batch.core.step.AbstractStep execute - Step: [step1] executed in 2s709ms
+[INFO ] [2025-07-05 02:48:22,156] [restartedMain] c.m.i.d.JobCompletionNotificationListener afterJob - afterJob called, status: COMPLETED
+[INFO ] [2025-07-05 02:48:22,730] [restartedMain] o.s.b.c.l.s.TaskExecutorJobLauncher run - Job: [SimpleJob: [name=importUserJob]] completed with the following parameters: [{}] and the following status: [COMPLETED] in 2s744ms
+[INFO ] [2025-07-05 02:48:55,670] [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener onApplicationEvent - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[INFO ] [2025-07-05 02:48:55,677] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown shutDownGracefully - Commencing graceful shutdown. Waiting for active requests to complete
+[INFO ] [2025-07-05 02:48:55,679] [tomcat-shutdown] o.a.coyote.http11.Http11NioProtocol log - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO ] [2025-07-05 02:48:55,691] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown doShutdown - Graceful shutdown complete
+[INFO ] [2025-07-05 02:48:55,694] [Thread-5] o.a.coyote.http11.Http11NioProtocol log - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO ] [2025-07-05 02:48:55,715] [Thread-5] o.s.o.j.LocalContainerEntityManagerFactoryBean destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] [2025-07-05 02:48:55,835] [Thread-5] com.zaxxer.hikari.HikariDataSource close - HikariPool-1 - Shutdown initiated...
+[INFO ] [2025-07-05 02:48:55,838] [Thread-5] com.zaxxer.hikari.HikariDataSource close - HikariPool-1 - Shutdown completed.
+[INFO ] [2025-07-05 02:48:55,985] [restartedMain] c.m.i.IplDashboardApplication logStarting - Starting IplDashboardApplication using Java 24.0.1 with PID 22024 (C:\Users\user\OneDrive\Documents\ipl-dashboard\target\classes started by user in C:\Users\user\OneDrive\Documents\ipl-dashboard)
+[INFO ] [2025-07-05 02:48:55,986] [restartedMain] c.m.i.IplDashboardApplication logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+[INFO ] [2025-07-05 02:48:56,716] [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] [2025-07-05 02:48:56,726] [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn - Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+[INFO ] [2025-07-05 02:48:56,961] [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer initialize - Tomcat initialized with port 8080 (http)
+[INFO ] [2025-07-05 02:48:56,963] [restartedMain] o.a.coyote.http11.Http11NioProtocol log - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] [2025-07-05 02:48:56,965] [restartedMain] o.a.catalina.core.StandardService log - Starting service [Tomcat]
+[INFO ] [2025-07-05 02:48:56,966] [restartedMain] o.a.catalina.core.StandardEngine log - Starting Servlet engine: [Apache Tomcat/10.1.42]
+[INFO ] [2025-07-05 02:48:57,023] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] log - Initializing Spring embedded WebApplicationContext
+[INFO ] [2025-07-05 02:48:57,024] [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1032 ms
+[INFO ] [2025-07-05 02:48:57,115] [restartedMain] com.zaxxer.hikari.HikariDataSource getConnection - HikariPool-2 - Starting...
+[INFO ] [2025-07-05 02:48:57,148] [restartedMain] com.zaxxer.hikari.pool.PoolBase getAndSetNetworkTimeout - HikariPool-2 - Driver does not support get/set network timeout for connections. (feature not supported)
+[INFO ] [2025-07-05 02:48:57,149] [restartedMain] com.zaxxer.hikari.pool.HikariPool checkFailFast - HikariPool-2 - Added connection org.hsqldb.jdbc.JDBCConnection@728c9e4
+[INFO ] [2025-07-05 02:48:57,150] [restartedMain] com.zaxxer.hikari.HikariDataSource getConnection - HikariPool-2 - Start completed.
+[INFO ] [2025-07-05 02:48:57,187] [restartedMain] o.h.jpa.internal.util.LogHelper logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] [2025-07-05 02:48:57,193] [restartedMain] o.h.c.i.RegionFactoryInitiator initiateService - HHH000026: Second-level cache disabled
+[INFO ] [2025-07-05 02:48:57,219] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] [2025-07-05 02:48:57,224] [restartedMain] o.hibernate.orm.connections.pooling logConnectionInfo - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 2.7.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] [2025-07-05 02:48:57,363] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] [2025-07-05 02:48:57,367] [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] [2025-07-05 02:48:57,480] [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] [2025-07-05 02:48:57,908] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer startServer - LiveReload server is running on port 35729
+[INFO ] [2025-07-05 02:48:57,912] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver <init> - Exposing 1 endpoint beneath base path '/actuator'
+[INFO ] [2025-07-05 02:48:57,940] [restartedMain] o.a.coyote.http11.Http11NioProtocol log - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] [2025-07-05 02:48:57,946] [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer start - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] [2025-07-05 02:48:57,964] [restartedMain] c.m.i.IplDashboardApplication logStarted - Started IplDashboardApplication in 2.058 seconds (process running for 51.58)
+[INFO ] [2025-07-05 02:48:57,966] [restartedMain] o.s.b.a.b.JobLauncherApplicationRunner run - Running default command line with: []
+[INFO ] [2025-07-05 02:48:57,977] [restartedMain] o.s.b.c.l.s.TaskExecutorJobLauncher run - Job: [SimpleJob: [name=importUserJob]] launched with the following parameters: [{}]
+[INFO ] [2025-07-05 02:48:57,986] [restartedMain] o.s.batch.core.job.SimpleStepHandler handleStep - Executing step: [step1]
+[INFO ] [2025-07-05 02:48:58,886] [restartedMain] o.s.batch.core.step.AbstractStep execute - Step: [step1] executed in 899ms
+[INFO ] [2025-07-05 02:48:58,891] [restartedMain] c.m.i.d.JobCompletionNotificationListener afterJob - afterJob called, status: COMPLETED
+[INFO ] [2025-07-05 02:48:58,901] [restartedMain] o.s.b.c.l.s.TaskExecutorJobLauncher run - Job: [SimpleJob: [name=importUserJob]] completed with the following parameters: [{}] and the following status: [COMPLETED] in 911ms
+[INFO ] [2025-07-05 02:48:58,904] [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener onApplicationEvent - Condition evaluation unchanged
+[INFO ] [2025-07-05 02:49:25,483] [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener onApplicationEvent - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[INFO ] [2025-07-05 02:49:25,485] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown shutDownGracefully - Commencing graceful shutdown. Waiting for active requests to complete
+[INFO ] [2025-07-05 02:49:25,486] [tomcat-shutdown] o.a.coyote.http11.Http11NioProtocol log - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO ] [2025-07-05 02:49:25,489] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown doShutdown - Graceful shutdown complete
+[INFO ] [2025-07-05 02:49:25,489] [Thread-7] o.a.coyote.http11.Http11NioProtocol log - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO ] [2025-07-05 02:49:25,494] [Thread-7] o.s.o.j.LocalContainerEntityManagerFactoryBean destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] [2025-07-05 02:49:25,497] [Thread-7] com.zaxxer.hikari.HikariDataSource close - HikariPool-2 - Shutdown initiated...
+[INFO ] [2025-07-05 02:49:25,498] [Thread-7] com.zaxxer.hikari.HikariDataSource close - HikariPool-2 - Shutdown completed.
+[INFO ] [2025-07-05 02:49:25,587] [restartedMain] c.m.i.IplDashboardApplication logStarting - Starting IplDashboardApplication using Java 24.0.1 with PID 22024 (C:\Users\user\OneDrive\Documents\ipl-dashboard\target\classes started by user in C:\Users\user\OneDrive\Documents\ipl-dashboard)
+[INFO ] [2025-07-05 02:49:25,588] [restartedMain] c.m.i.IplDashboardApplication logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+[INFO ] [2025-07-05 02:49:25,895] [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] [2025-07-05 02:49:25,903] [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn - Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+[INFO ] [2025-07-05 02:49:25,992] [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer initialize - Tomcat initialized with port 8080 (http)
+[INFO ] [2025-07-05 02:49:25,994] [restartedMain] o.a.coyote.http11.Http11NioProtocol log - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] [2025-07-05 02:49:25,994] [restartedMain] o.a.catalina.core.StandardService log - Starting service [Tomcat]
+[INFO ] [2025-07-05 02:49:25,995] [restartedMain] o.a.catalina.core.StandardEngine log - Starting Servlet engine: [Apache Tomcat/10.1.42]
+[INFO ] [2025-07-05 02:49:26,025] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] log - Initializing Spring embedded WebApplicationContext
+[INFO ] [2025-07-05 02:49:26,025] [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 435 ms
+[INFO ] [2025-07-05 02:49:26,066] [restartedMain] com.zaxxer.hikari.HikariDataSource getConnection - HikariPool-3 - Starting...
+[INFO ] [2025-07-05 02:49:26,080] [restartedMain] com.zaxxer.hikari.pool.PoolBase getAndSetNetworkTimeout - HikariPool-3 - Driver does not support get/set network timeout for connections. (feature not supported)
+[INFO ] [2025-07-05 02:49:26,082] [restartedMain] com.zaxxer.hikari.pool.HikariPool checkFailFast - HikariPool-3 - Added connection org.hsqldb.jdbc.JDBCConnection@2e1116b2
+[INFO ] [2025-07-05 02:49:26,082] [restartedMain] com.zaxxer.hikari.HikariDataSource getConnection - HikariPool-3 - Start completed.
+[INFO ] [2025-07-05 02:49:26,098] [restartedMain] o.h.jpa.internal.util.LogHelper logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] [2025-07-05 02:49:26,102] [restartedMain] o.h.c.i.RegionFactoryInitiator initiateService - HHH000026: Second-level cache disabled
+[INFO ] [2025-07-05 02:49:26,115] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] [2025-07-05 02:49:26,118] [restartedMain] o.hibernate.orm.connections.pooling logConnectionInfo - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 2.7.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] [2025-07-05 02:49:26,175] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] [2025-07-05 02:49:26,178] [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] [2025-07-05 02:49:26,223] [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] [2025-07-05 02:49:26,392] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer startServer - LiveReload server is running on port 35729
+[INFO ] [2025-07-05 02:49:26,397] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver <init> - Exposing 1 endpoint beneath base path '/actuator'
+[INFO ] [2025-07-05 02:49:26,415] [restartedMain] o.a.coyote.http11.Http11NioProtocol log - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] [2025-07-05 02:49:26,421] [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer start - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] [2025-07-05 02:49:26,429] [restartedMain] c.m.i.IplDashboardApplication logStarted - Started IplDashboardApplication in 0.871 seconds (process running for 80.045)
+[INFO ] [2025-07-05 02:49:26,431] [restartedMain] o.s.b.a.b.JobLauncherApplicationRunner run - Running default command line with: []
+[INFO ] [2025-07-05 02:49:26,438] [restartedMain] o.s.b.c.l.s.TaskExecutorJobLauncher run - Job: [SimpleJob: [name=importUserJob]] launched with the following parameters: [{}]
+[INFO ] [2025-07-05 02:49:26,442] [restartedMain] o.s.batch.core.job.SimpleStepHandler handleStep - Executing step: [step1]
+[INFO ] [2025-07-05 02:49:27,060] [restartedMain] o.s.batch.core.step.AbstractStep execute - Step: [step1] executed in 617ms
+[INFO ] [2025-07-05 02:49:27,065] [restartedMain] c.m.i.d.JobCompletionNotificationListener afterJob - afterJob called, status: COMPLETED
+[INFO ] [2025-07-05 02:49:27,217] [restartedMain] o.s.b.c.l.s.TaskExecutorJobLauncher run - Job: [SimpleJob: [name=importUserJob]] completed with the following parameters: [{}] and the following status: [COMPLETED] in 624ms
+[INFO ] [2025-07-05 02:49:27,222] [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener onApplicationEvent - Condition evaluation unchanged

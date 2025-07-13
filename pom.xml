@@ -70,7 +70,13 @@
 			<artifactId>spring-batch-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-	</dependencies>
+	
+   <dependency>
+     <groupId>io.deepsense.neptune</groupId>
+     <artifactId>neptune-client-library</artifactId>
+     <version>1.6.1</version>
+   </dependency>
+ </dependencies>
 
 	<build>
 		<plugins>

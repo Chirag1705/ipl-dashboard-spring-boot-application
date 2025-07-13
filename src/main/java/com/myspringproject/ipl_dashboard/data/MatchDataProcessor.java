@@ -1,7 +1,7 @@
 package com.myspringproject.ipl_dashboard.data;
 
 import java.time.LocalDate;
-import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -18,7 +18,8 @@ public class MatchDataProcessor implements ItemProcessor<MatchInput, Match> {
     Match match = new Match();
     match.setId(Long.parseLong(matchInput.getId()));
     match.setCity(matchInput.getCity());
-    match.setDate(LocalDate.parse(matchInput.getDate()));
+    final DateTimeFormatter DATE_FORMATTER = DateTimeFormatter.ofPattern("dd-MM-yyyy");
+    match.setDate(LocalDate.parse(matchInput.getDate(), DATE_FORMATTER));
     match.setPlayerOfMatch(matchInput.getPlayer_of_match());
     match.setVenue(matchInput.getVenue());
     match.setTeam1(matchInput.getTeam1());
