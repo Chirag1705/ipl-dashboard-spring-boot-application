@@ -1,6 +1,8 @@
 package com.myspringproject.ipl_dashboard.model;
 
-import jakarta.annotation.Generated;
+import java.util.List;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -14,6 +16,9 @@ public class Team {
     private String teamName;
     private long totalMatches;
     private long totalWins;
+
+    private transient List<Match> matches;
+
     public long getId() {
         return id;
     }
@@ -38,13 +43,24 @@ public class Team {
     public void setTotalWins(long totalWins) {
         this.totalWins = totalWins;
     }
-    public Team(String teamName, long totalMatches) {
-        this.teamName = teamName;
+    public Team(String e, long totalMatches) {
+        this.teamName = e;
         this.totalMatches = totalMatches;
     }
     @Override
     public String toString() {
         return "Team [teamName=" + teamName + ", totalMatches=" + totalMatches + ", totalWins=" + totalWins + "]";
     }
+
+    public Team() {
+        
+    }
+    public List<Match> getMatches() {
+        return matches;
+    }
+    public void setMatches(List<Match> matches) {
+        this.matches = matches;
+    }
+    
     
 }
